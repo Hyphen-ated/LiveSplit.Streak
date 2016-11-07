@@ -32,7 +32,7 @@ namespace LiveSplit.UI.Components
             {
                 CurrentState = state
             };
-            InternalComponent = new InfoTextComponent(Settings.Text1, "0");
+            InternalComponent = new StreakTextComponent(Settings);
             state.OnSplit += state_OnSplit;
             state.OnUndoSplit += state_OnUndoSplit;
             state.OnReset += state_OnReset;

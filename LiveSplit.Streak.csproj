@@ -63,6 +63,7 @@
     <Compile Include="UI\Components\StreakComponentSettings.Designer.cs">
       <DependentUpon>StreakComponentSettings.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Components\StreakTextComponent.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\LiveSplit.Core\LiveSplit.Core.csproj">
